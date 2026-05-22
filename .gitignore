@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / local artifacts
+*.log
+outputs/streamlit_boot.log
+
+# OpenML / sklearn dataset cache (re-downloaded by src/pipeline.py)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
