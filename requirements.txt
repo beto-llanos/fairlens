@@ -1,7 +1,10 @@
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.4.2
-fairlearn==0.10.0
-plotly==5.22.0
-streamlit==1.35.0
-matplotlib==3.8.4
+# Flexible lower bounds so prebuilt wheels resolve on any modern Python
+# (Streamlit Community Cloud currently provisions Python 3.14).
+streamlit>=1.40
+pandas>=2.2.3
+numpy>=2.1
+scipy>=1.14
+scikit-learn>=1.6
+fairlearn>=0.11
+plotly>=5.22
+matplotlib>=3.9
